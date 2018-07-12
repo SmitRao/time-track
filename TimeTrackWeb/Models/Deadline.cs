@@ -8,7 +8,7 @@ namespace TimeTrackWeb.Models
     public class Deadline
     {
         public DateTime Time { get; set; }
-        public String Id = new Guid().ToString();
+        public Guid Id { get; set; }
         public String Name { get; set; }
     }
 }
