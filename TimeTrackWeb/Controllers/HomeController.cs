@@ -17,14 +17,14 @@ namespace TimeTrackWeb.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "Our platform offers time-sensitive asset / liabilities' tracking.";
 
             return View();
         }
 
         public IActionResult Contact()
         {
-            ViewData["Message"] = "Your contact page.";
+            ViewData["Message"] = "Find us at:";
 
             return View();
         }
